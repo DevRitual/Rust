@@ -1,0 +1,6 @@
+Ownership is Rust’s system for managing memory at compile time.
+Every value in Rust has:
+One owner
+A single lifetime
+Automatic cleanup when the owner goes out of scope
+This removes issues like null pointers, memory leaks, and data races
